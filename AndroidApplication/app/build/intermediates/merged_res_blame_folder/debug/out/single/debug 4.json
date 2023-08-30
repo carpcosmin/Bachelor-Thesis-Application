@@ -1,0 +1,318 @@
+[
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_baseline_delete_forever_24.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/baseline_delete_forever_24.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_baseline_delete_forever_white.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/baseline_delete_forever_white.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable-ldpi_main_icon.png.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable-ldpi/main_icon.png"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/layout_content_main.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/layout_offer_item_favorite_offers.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/layout/offer_item_favorite_offers.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_ic_baseline_account_circle_24_black.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/ic_baseline_account_circle_24_black.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_ic_baseline_email_24_black.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/ic_baseline_email_24_black.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable-hdpi_main_icon.png.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable-hdpi/main_icon.png"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable-xxxhdpi_main_icon.png.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable-xxxhdpi/main_icon.png"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_baseline_phone_24_white.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/baseline_phone_24_white.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_ic_menu_slideshow.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_baseline_close_24.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/baseline_close_24.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/menu_activity_main_drawer.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable-xxhdpi_main_icon.png.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable-xxhdpi/main_icon.png"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/layout_fragment_my_offers.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/layout/fragment_my_offers.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/layout_viewpager_item.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/layout/viewpager_item.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_ic_location.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/ic_location.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/layout_offer_item_myoffers.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/layout/offer_item_myoffers.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_search_bar.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/search_bar.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/layout_fragment_favorites.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/layout/fragment_favorites.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_null_image_placeholder.png.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/null_image_placeholder.png"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable-v24_background_image.png.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable-v24/background_image.png"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_ic_baseline_email_24.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/ic_baseline_email_24.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/layout_activity_view_offer.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/layout/activity_view_offer.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/menu_home.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/menu/home.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/layout_offer_item.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/layout/offer_item.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_rounded_corners.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/rounded_corners.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/layout_fragment_buy.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/layout/fragment_buy.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/layout_fragment_rent.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/layout/fragment_rent.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable-mdpi_main_icon.png.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable-mdpi/main_icon.png"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_ic_menu_message.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/ic_menu_message.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_baseline_phone_24_black.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/baseline_phone_24_black.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_baseline_add_24_purple.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/baseline_add_24_purple.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_baseline_message_24_white.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/baseline_message_24_white.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/layout_fragment_profile.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/layout_fragment_map.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/layout/fragment_map.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/layout_activity_intro.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/layout/activity_intro.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_ic_menu_gallery.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable-xhdpi_main_icon.png.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable-xhdpi/main_icon.png"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_ic_menu_home.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/ic_menu_home.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/layout_activity_edit_offer.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/layout/activity_edit_offer.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_default_profile_picture.jpg.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/default_profile_picture.jpg"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/layout_activity_main.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.aplicatielicenta.app-pngs-49:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_custom_image.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/custom_image.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/navigation_mobile_navigation.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_ic_menu_camera.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/ic_menu_camera.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_ic_menu_favorites.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/ic_menu_favorites.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_ic_baseline_password_24_black.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/ic_baseline_password_24_black.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_ic_menu_profile.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/ic_menu_profile.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_baseline_check_24.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/baseline_check_24.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_circleindicator_round.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/circleindicator_round.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/layout_fragment_main.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/layout/fragment_main.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/layout_activity_log_in.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/layout/activity_log_in.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_ic_baseline_account_circle_24.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/ic_baseline_account_circle_24.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_ic_baseline_password_24.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/ic_baseline_password_24.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_ic_baseline_phone_24.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/ic_baseline_phone_24.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/layout_app_bar_main.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_side_nav_bar.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/xml_backup_rules.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/layout_activity_sign_up.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/layout_nav_header_home.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/layout/nav_header_home.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/layout_activity_add_offer.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/layout/activity_add_offer.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_custom_button.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/custom_button.xml"
+    },
+    {
+        "merged": "com.example.aplicatielicenta.app-merged_res-54:/drawable_baseline_add_24.xml.flat",
+        "source": "com.example.aplicatielicenta.app-main-56:/drawable/baseline_add_24.xml"
+    }
+]

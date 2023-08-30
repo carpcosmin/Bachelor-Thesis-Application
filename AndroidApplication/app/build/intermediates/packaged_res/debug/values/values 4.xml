@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">AplicatieLicenta</string>
+    <string name="change_profile_picture">Change profile picture</string>
+    <string name="continue_without_account"><u>Continue without account</u></string>
+    <string name="default_web_client_id" translatable="false">242268764735-cdogin1udsmqjp3a7pbf75ul1i38ffp8.apps.googleusercontent.com</string>
+    <string name="delete_account">Delete account</string>
+    <string name="favorites">Favorites</string>
+    <string name="gcm_defaultSenderId" translatable="false">242268764735</string>
+    <string name="google_api_key" translatable="false">AIzaSyAsKB9LqQvjfbwFynkPqCA2lBYFOa68lxg</string>
+    <string name="google_app_id" translatable="false">1:242268764735:android:e5d638035732ebf4cdd68a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAsKB9LqQvjfbwFynkPqCA2lBYFOa68lxg</string>
+    <string name="google_storage_bucket" translatable="false">aplicatielicenta-8dd12.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiY29zbWluMjgwMiIsImEiOiJjbGJmMmVyMjEwMjJzM29wZHczN2JuZDQyIn0.TqZbu8NH54R_M37w02mVwA</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="messages">Messages</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="profile">Profile</string>
+    <string name="project_id" translatable="false">aplicatielicenta-8dd12</string>
+    <string name="save_changes">Save changes</string>
+    <string name="sign_out"><u>Sign Out</u></string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_location_picker">LocationPickerActivity</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <style name="Theme.AplicatieLicenta" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="Theme.AplicatieLicenta.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.AplicatieLicenta.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.AplicatieLicenta.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>

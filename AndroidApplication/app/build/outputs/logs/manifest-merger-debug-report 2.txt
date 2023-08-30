@@ -1,0 +1,681 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:2:1-79:12
+MERGED from [androidx.databinding:viewbinding:7.3.1] /Users/cosmin/.gradle/caches/transforms-3/77780956c02bc000dfd7c72057aedd9c/transformed/jetified-viewbinding-7.3.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.navigation:navigation-ui:2.5.2] /Users/cosmin/.gradle/caches/transforms-3/dc4ec1bab9bf49d0115a1ea865962735/transformed/navigation-ui-2.5.2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.7.0] /Users/cosmin/.gradle/caches/transforms-3/d0f8e9e3a1a3566c7f8af6e0e784236b/transformed/material-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/cosmin/.gradle/caches/transforms-3/3ec1c515bd6229e3a29620dd49ce4e31/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/cosmin/.gradle/caches/transforms-3/edbbef99d568db01f27fe7faf65ba81c/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/cosmin/.gradle/caches/transforms-3/4cb767dac15064d3b3acdd3f3d483e34/transformed/appcompat-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/b51b7c2fe305bfaae9422e20b1355f89/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:15:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] /Users/cosmin/.gradle/caches/transforms-3/973e510f3f1878936017b43e44ceb5bb/transformed/jetified-lifecycle-livedata-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.5.2] /Users/cosmin/.gradle/caches/transforms-3/6c56e4f0e6932eb333357aee3cfff378/transformed/navigation-fragment-2.5.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.5.2] /Users/cosmin/.gradle/caches/transforms-3/1f5604177bf08b967cb862adb8d33790/transformed/jetified-fragment-ktx-1.5.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.5.2] /Users/cosmin/.gradle/caches/transforms-3/42907d8c2a8c3dfb684e1444ce8ca264/transformed/navigation-runtime-2.5.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.5.1] /Users/cosmin/.gradle/caches/transforms-3/3459879068eafe6d3da6cdd7e43cc746/transformed/jetified-activity-ktx-1.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.5.2] /Users/cosmin/.gradle/caches/transforms-3/0aecc6ab2304d6a196483806490ae5ce/transformed/navigation-common-2.5.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/cosmin/.gradle/caches/transforms-3/0d6ed5a6f3c0e5fae8cf0b22be664362/transformed/jetified-lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/63bcf0db127aa923e0759e857a570abb/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:17:1-73:12
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/37973990f1fe10b7a1611b8d136ac423/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:17:1-44:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/cosmin/.gradle/caches/transforms-3/8414c8d91a9630cf4529ba478ed3a113/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/cosmin/.gradle/caches/transforms-3/079db714a854fafa035c87c75e9e311c/transformed/jetified-glide-4.12.0/AndroidManifest.xml:2:1-12:12
+MERGED from [me.relex:circleindicator:2.1.6] /Users/cosmin/.gradle/caches/transforms-3/639b49874e91c23373c6d7873f50c72d/transformed/jetified-circleindicator-2.1.6/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/0e280a47e1f9f0972803fbbee5904626/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/cosmin/.gradle/caches/transforms-3/cc369a896dfe21d0736312176f04bd37/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/cosmin/.gradle/caches/transforms-3/a4467d81ae08fd74e4fdf7cf95b46970/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/cosmin/.gradle/caches/transforms-3/d54ce005c40cba7e2f1d6e29599cc317/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/cosmin/.gradle/caches/transforms-3/1b98f7419b259b5851e10dc084c2d2d0/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.2.0] /Users/cosmin/.gradle/caches/transforms-3/7ff2d3215a4bea2bf50bcb3f80ed0f46/transformed/jetified-play-services-base-18.2.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.5.0] /Users/cosmin/.gradle/caches/transforms-3/2c6b16220b8993e8ef341f92fba65c3a/transformed/jetified-mapbox-android-sdk-9.5.0/AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/ff51eafc1f9a276f93111296206e7fcc/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/cosmin/.gradle/caches/transforms-3/f30141bfb421f1af55500cca93545fbf/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/cosmin/.gradle/caches/transforms-3/9bd6b9d12356e6b88c7f4d2337341b95/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/cosmin/.gradle/caches/transforms-3/e34daebd16827143a55dce6653f593e2/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/c0573c6f4ce486a1aaaf021c2cc2a651/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.5.2] /Users/cosmin/.gradle/caches/transforms-3/2d338dcb9e7990f4c62952cd4207c787/transformed/fragment-1.5.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.5.1] /Users/cosmin/.gradle/caches/transforms-3/b5c985806c5a27bbf4e0a421dc198355/transformed/jetified-activity-1.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/8d54fc16b952dd42f1e9586f95769e66/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:2:1-29:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/3803c10944a4f5ef9ab0ad05d7d9b6bd/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/cace1f43dd38431bf908e4df23fe5993/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/cosmin/.gradle/caches/transforms-3/070cf33b0f8b4d00b1bfa2a7d16be153/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/cosmin/.gradle/caches/transforms-3/17b3582dab3c6fc53e79e894e981c4c1/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/cosmin/.gradle/caches/transforms-3/7da77b56c4a3eb694f8f63d67a69ba48/transformed/jetified-core-ktx-1.8.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/79fb56ff1da6b9cebad64df5685a48e9/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/9c42b02ee3e3865ed9ee971a55c1e7de/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/cosmin/.gradle/caches/transforms-3/e08ab56dd776305b3242bad0eefd2cef/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/cosmin/.gradle/caches/transforms-3/5b91193f404219e5396acbd9008cc39e/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/cosmin/.gradle/caches/transforms-3/426b6bd9d31748c14f415907822ab47f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/cosmin/.gradle/caches/transforms-3/f09ce6ff2f12b444e9609c949265ed5e/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/67401f97624f20df15b389f0bd34ed53/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/cosmin/.gradle/caches/transforms-3/07c8e8a5fa0ae52fd90c896eaa7c0d4b/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/a78a6cb35da8fec928e04e1607f31287/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/cosmin/.gradle/caches/transforms-3/904d725d6bf94bc03e1d92093c0cf9d0/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/cosmin/.gradle/caches/transforms-3/60ca203dbb1241f6fdfda227385f1cca/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.7.0] /Users/cosmin/.gradle/caches/transforms-3/46fd11aac94edf2ab96fc53582a39165/transformed/jetified-mapbox-android-gestures-0.7.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.transition:transition:1.4.1] /Users/cosmin/.gradle/caches/transforms-3/8c0fec93880369462ea0d48990f9661a/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/0f098588e5b9c2b8b7b9ddf627f23779/transformed/jetified-window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.core:core:1.8.0] /Users/cosmin/.gradle/caches/transforms-3/816ef7e612da78b6bfc7fa0dcb532774/transformed/core-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/15da04c1a52226900adcc9cab1739d90/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/cosmin/.gradle/caches/transforms-3/ea68ad47b42a9ebebb28a4d5a117cdba/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /Users/cosmin/.gradle/caches/transforms-3/4a0c7bc219bae59154aa6bf5f16c0821/transformed/jetified-lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/cosmin/.gradle/caches/transforms-3/84bc9d70a7061a7e210aa42fc276c507/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/cbb68cc5daa9f459e786b06a422fb0fb/transformed/jetified-savedstate-ktx-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/f5530ecf43239deaf8721b9cbf8665aa/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.0.1] /Users/cosmin/.gradle/caches/transforms-3/a01854606bf0e1f7831489ee87769127/transformed/jetified-firebase-components-17.0.1/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/12a81f386434a63c911f6727bbe8fa5e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/cosmin/.gradle/caches/transforms-3/fe617c9f320d0e85b6a43109b050c0c1/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/88afd90800790d3a0a603dfa402774b5/transformed/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0] /Users/cosmin/.gradle/caches/transforms-3/57a549cf65715aa4961306efad7e5037/transformed/jetified-mapbox-android-accounts-0.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/cosmin/.gradle/caches/transforms-3/fc244a3acd83e0310a091dddac90dc8f/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/00b9787fdded29b1b4571e949a46e8a1/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/cosmin/.gradle/caches/transforms-3/2c8a1bffbc6b79160aad458e1d590c90/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] /Users/cosmin/.gradle/caches/transforms-3/a695890b07b6c44cc23e7bc03b9c902b/transformed/lifecycle-livedata-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /Users/cosmin/.gradle/caches/transforms-3/15f97eda3e6f6fe412570162693d7cc3/transformed/jetified-lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/cosmin/.gradle/caches/transforms-3/acb90acb7767e81aa1cd50624fe7d24e/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/cosmin/.gradle/caches/transforms-3/53f462017f57a2a83c5e6faf2cdc3f3b/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/5fd5e3beeee5347737a81fe327288874/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/532a0c73d41f8f2a02276d534f827aff/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/c652017d29b6b9a8fad50b63d1142c66/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/cosmin/.gradle/caches/transforms-3/b42a34c3281166acdc28276601a3663f/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.0.0] /Users/cosmin/.gradle/caches/transforms-3/0d2cf553a51b48273ee9c0e02267ad70/transformed/jetified-mapbox-android-sdk-gl-core-5.0.0/AndroidManifest.xml:2:1-21:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:3.0.0] /Users/cosmin/.gradle/caches/transforms-3/63efc7d94b2b6837ef9a72f3a7e8455d/transformed/jetified-mapbox-android-core-3.0.0/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:2:1-79:12
+	package
+		INJECTED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:2:1-79:12
+		INJECTED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:2:1-79:12
+		INJECTED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:2:1-79:12
+		INJECTED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:5:5-6:39
+	tools:ignore
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:6:9-37
+	android:name
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.INTERNET
+ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/b51b7c2fe305bfaae9422e20b1355f89/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/b51b7c2fe305bfaae9422e20b1355f89/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/63bcf0db127aa923e0759e857a570abb/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/63bcf0db127aa923e0759e857a570abb/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/37973990f1fe10b7a1611b8d136ac423/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/37973990f1fe10b7a1611b8d136ac423/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:24:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.5.0] /Users/cosmin/.gradle/caches/transforms-3/2c6b16220b8993e8ef341f92fba65c3a/transformed/jetified-mapbox-android-sdk-9.5.0/AndroidManifest.xml:16:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.5.0] /Users/cosmin/.gradle/caches/transforms-3/2c6b16220b8993e8ef341f92fba65c3a/transformed/jetified-mapbox-android-sdk-9.5.0/AndroidManifest.xml:16:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:15:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:15:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.0.0] /Users/cosmin/.gradle/caches/transforms-3/0d2cf553a51b48273ee9c0e02267ad70/transformed/jetified-mapbox-android-sdk-gl-core-5.0.0/AndroidManifest.xml:16:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.0.0] /Users/cosmin/.gradle/caches/transforms-3/0d2cf553a51b48273ee9c0e02267ad70/transformed/jetified-mapbox-android-sdk-gl-core-5.0.0/AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/b51b7c2fe305bfaae9422e20b1355f89/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/b51b7c2fe305bfaae9422e20b1355f89/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/63bcf0db127aa923e0759e857a570abb/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/63bcf0db127aa923e0759e857a570abb/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/37973990f1fe10b7a1611b8d136ac423/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/37973990f1fe10b7a1611b8d136ac423/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.5.0] /Users/cosmin/.gradle/caches/transforms-3/2c6b16220b8993e8ef341f92fba65c3a/transformed/jetified-mapbox-android-sdk-9.5.0/AndroidManifest.xml:17:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.5.0] /Users/cosmin/.gradle/caches/transforms-3/2c6b16220b8993e8ef341f92fba65c3a/transformed/jetified-mapbox-android-sdk-9.5.0/AndroidManifest.xml:17:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:13:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:13:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.0.0] /Users/cosmin/.gradle/caches/transforms-3/0d2cf553a51b48273ee9c0e02267ad70/transformed/jetified-mapbox-android-sdk-gl-core-5.0.0/AndroidManifest.xml:17:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.0.0] /Users/cosmin/.gradle/caches/transforms-3/0d2cf553a51b48273ee9c0e02267ad70/transformed/jetified-mapbox-android-sdk-gl-core-5.0.0/AndroidManifest.xml:17:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:3.0.0] /Users/cosmin/.gradle/caches/transforms-3/63efc7d94b2b6837ef9a72f3a7e8455d/transformed/jetified-mapbox-android-core-3.0.0/AndroidManifest.xml:11:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:3.0.0] /Users/cosmin/.gradle/caches/transforms-3/63efc7d94b2b6837ef9a72f3a7e8455d/transformed/jetified-mapbox-android-core-3.0.0/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:10:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.5.0] /Users/cosmin/.gradle/caches/transforms-3/2c6b16220b8993e8ef341f92fba65c3a/transformed/jetified-mapbox-android-sdk-9.5.0/AndroidManifest.xml:18:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.5.0] /Users/cosmin/.gradle/caches/transforms-3/2c6b16220b8993e8ef341f92fba65c3a/transformed/jetified-mapbox-android-sdk-9.5.0/AndroidManifest.xml:18:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:14:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:14:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.0.0] /Users/cosmin/.gradle/caches/transforms-3/0d2cf553a51b48273ee9c0e02267ad70/transformed/jetified-mapbox-android-sdk-gl-core-5.0.0/AndroidManifest.xml:18:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.0.0] /Users/cosmin/.gradle/caches/transforms-3/0d2cf553a51b48273ee9c0e02267ad70/transformed/jetified-mapbox-android-sdk-gl-core-5.0.0/AndroidManifest.xml:18:5-76
+	android:name
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:10:22-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:12:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.5.0] /Users/cosmin/.gradle/caches/transforms-3/2c6b16220b8993e8ef341f92fba65c3a/transformed/jetified-mapbox-android-sdk-9.5.0/AndroidManifest.xml:19:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.5.0] /Users/cosmin/.gradle/caches/transforms-3/2c6b16220b8993e8ef341f92fba65c3a/transformed/jetified-mapbox-android-sdk-9.5.0/AndroidManifest.xml:19:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.0.0] /Users/cosmin/.gradle/caches/transforms-3/0d2cf553a51b48273ee9c0e02267ad70/transformed/jetified-mapbox-android-sdk-gl-core-5.0.0/AndroidManifest.xml:19:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.0.0] /Users/cosmin/.gradle/caches/transforms-3/0d2cf553a51b48273ee9c0e02267ad70/transformed/jetified-mapbox-android-sdk-gl-core-5.0.0/AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:13:5-85
+	android:name
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:13:22-82
+application
+ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:15:5-77:19
+MERGED from [com.google.android.material:material:1.7.0] /Users/cosmin/.gradle/caches/transforms-3/d0f8e9e3a1a3566c7f8af6e0e784236b/transformed/material-1.7.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.7.0] /Users/cosmin/.gradle/caches/transforms-3/d0f8e9e3a1a3566c7f8af6e0e784236b/transformed/material-1.7.0/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/cosmin/.gradle/caches/transforms-3/3ec1c515bd6229e3a29620dd49ce4e31/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/cosmin/.gradle/caches/transforms-3/3ec1c515bd6229e3a29620dd49ce4e31/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/b51b7c2fe305bfaae9422e20b1355f89/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/b51b7c2fe305bfaae9422e20b1355f89/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/63bcf0db127aa923e0759e857a570abb/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/63bcf0db127aa923e0759e857a570abb/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/37973990f1fe10b7a1611b8d136ac423/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/37973990f1fe10b7a1611b8d136ac423/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:36:5-42:19
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/cosmin/.gradle/caches/transforms-3/8414c8d91a9630cf4529ba478ed3a113/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/cosmin/.gradle/caches/transforms-3/8414c8d91a9630cf4529ba478ed3a113/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/cosmin/.gradle/caches/transforms-3/079db714a854fafa035c87c75e9e311c/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/cosmin/.gradle/caches/transforms-3/079db714a854fafa035c87c75e9e311c/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/cosmin/.gradle/caches/transforms-3/cc369a896dfe21d0736312176f04bd37/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/cosmin/.gradle/caches/transforms-3/cc369a896dfe21d0736312176f04bd37/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/cosmin/.gradle/caches/transforms-3/1b98f7419b259b5851e10dc084c2d2d0/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/cosmin/.gradle/caches/transforms-3/1b98f7419b259b5851e10dc084c2d2d0/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.2.0] /Users/cosmin/.gradle/caches/transforms-3/7ff2d3215a4bea2bf50bcb3f80ed0f46/transformed/jetified-play-services-base-18.2.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.2.0] /Users/cosmin/.gradle/caches/transforms-3/7ff2d3215a4bea2bf50bcb3f80ed0f46/transformed/jetified-play-services-base-18.2.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/cosmin/.gradle/caches/transforms-3/f30141bfb421f1af55500cca93545fbf/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/cosmin/.gradle/caches/transforms-3/f30141bfb421f1af55500cca93545fbf/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/cosmin/.gradle/caches/transforms-3/9bd6b9d12356e6b88c7f4d2337341b95/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/cosmin/.gradle/caches/transforms-3/9bd6b9d12356e6b88c7f4d2337341b95/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/cosmin/.gradle/caches/transforms-3/e34daebd16827143a55dce6653f593e2/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/cosmin/.gradle/caches/transforms-3/e34daebd16827143a55dce6653f593e2/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/c0573c6f4ce486a1aaaf021c2cc2a651/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/c0573c6f4ce486a1aaaf021c2cc2a651/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:17:5-27:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:17:5-27:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/9c42b02ee3e3865ed9ee971a55c1e7de/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/9c42b02ee3e3865ed9ee971a55c1e7de/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/0f098588e5b9c2b8b7b9ddf627f23779/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/0f098588e5b9c2b8b7b9ddf627f23779/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.8.0] /Users/cosmin/.gradle/caches/transforms-3/816ef7e612da78b6bfc7fa0dcb532774/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] /Users/cosmin/.gradle/caches/transforms-3/816ef7e612da78b6bfc7fa0dcb532774/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/cosmin/.gradle/caches/transforms-3/ea68ad47b42a9ebebb28a4d5a117cdba/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/cosmin/.gradle/caches/transforms-3/ea68ad47b42a9ebebb28a4d5a117cdba/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/cosmin/.gradle/caches/transforms-3/fe617c9f320d0e85b6a43109b050c0c1/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/cosmin/.gradle/caches/transforms-3/fe617c9f320d0e85b6a43109b050c0c1/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/cosmin/.gradle/caches/transforms-3/fc244a3acd83e0310a091dddac90dc8f/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/cosmin/.gradle/caches/transforms-3/fc244a3acd83e0310a091dddac90dc8f/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/cosmin/.gradle/caches/transforms-3/2c8a1bffbc6b79160aad458e1d590c90/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/cosmin/.gradle/caches/transforms-3/2c8a1bffbc6b79160aad458e1d590c90/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] /Users/cosmin/.gradle/caches/transforms-3/816ef7e612da78b6bfc7fa0dcb532774/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:23:9-35
+	android:label
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:20:9-41
+	android:fullBackupContent
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:18:9-54
+	android:roundIcon
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:22:9-54
+	tools:targetApi
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:26:9-29
+	android:largeHeap
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:21:9-33
+	android:icon
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:19:9-43
+	android:allowBackup
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:16:9-35
+	android:theme
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:24:9-54
+	android:dataExtractionRules
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:17:9-65
+	android:usesCleartextTraffic
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:25:9-44
+activity#com.example.aplicatielicenta.ViewOfferActivity
+ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:29:9-31:40
+	android:exported
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:30:13-46
+activity#com.example.aplicatielicenta.EditOfferActivity
+ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:33:13-46
+activity#com.example.aplicatielicenta.MainActivity
+ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:35:9-48:20
+	android:exported
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:37:13-36
+	android:theme
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:38:13-70
+	android:name
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:36:13-41
+meta-data#android.app.lib_name
+ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:39:13-41:36
+	android:value
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:41:17-33
+	android:name
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:40:17-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:43:13-47:29
+action#android.intent.action.MAIN
+ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:44:17-69
+	android:name
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:44:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:46:17-77
+	android:name
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:46:27-74
+activity#com.example.aplicatielicenta.AddOfferActivity
+ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:49:9-55:20
+	android:exported
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:50:13-45
+activity#com.example.aplicatielicenta.SignUpActivity
+ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:56:9-62:20
+	android:exported
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:58:13-37
+	android:name
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:57:13-43
+activity#com.example.aplicatielicenta.LogInActivity
+ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:63:9-69:20
+	android:exported
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:65:13-37
+	android:name
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:64:13-42
+activity#com.example.aplicatielicenta.IntroActivity
+ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:70:9-76:20
+	android:exported
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:72:13-37
+	android:name
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:71:13-42
+uses-sdk
+INJECTED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml
+INJECTED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.3.1] /Users/cosmin/.gradle/caches/transforms-3/77780956c02bc000dfd7c72057aedd9c/transformed/jetified-viewbinding-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:viewbinding:7.3.1] /Users/cosmin/.gradle/caches/transforms-3/77780956c02bc000dfd7c72057aedd9c/transformed/jetified-viewbinding-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-ui:2.5.2] /Users/cosmin/.gradle/caches/transforms-3/dc4ec1bab9bf49d0115a1ea865962735/transformed/navigation-ui-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.5.2] /Users/cosmin/.gradle/caches/transforms-3/dc4ec1bab9bf49d0115a1ea865962735/transformed/navigation-ui-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.7.0] /Users/cosmin/.gradle/caches/transforms-3/d0f8e9e3a1a3566c7f8af6e0e784236b/transformed/material-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.7.0] /Users/cosmin/.gradle/caches/transforms-3/d0f8e9e3a1a3566c7f8af6e0e784236b/transformed/material-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/cosmin/.gradle/caches/transforms-3/3ec1c515bd6229e3a29620dd49ce4e31/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/cosmin/.gradle/caches/transforms-3/3ec1c515bd6229e3a29620dd49ce4e31/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/cosmin/.gradle/caches/transforms-3/edbbef99d568db01f27fe7faf65ba81c/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/cosmin/.gradle/caches/transforms-3/edbbef99d568db01f27fe7faf65ba81c/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/cosmin/.gradle/caches/transforms-3/4cb767dac15064d3b3acdd3f3d483e34/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/cosmin/.gradle/caches/transforms-3/4cb767dac15064d3b3acdd3f3d483e34/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/b51b7c2fe305bfaae9422e20b1355f89/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/b51b7c2fe305bfaae9422e20b1355f89/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] /Users/cosmin/.gradle/caches/transforms-3/973e510f3f1878936017b43e44ceb5bb/transformed/jetified-lifecycle-livedata-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] /Users/cosmin/.gradle/caches/transforms-3/973e510f3f1878936017b43e44ceb5bb/transformed/jetified-lifecycle-livedata-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.5.2] /Users/cosmin/.gradle/caches/transforms-3/6c56e4f0e6932eb333357aee3cfff378/transformed/navigation-fragment-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.5.2] /Users/cosmin/.gradle/caches/transforms-3/6c56e4f0e6932eb333357aee3cfff378/transformed/navigation-fragment-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.2] /Users/cosmin/.gradle/caches/transforms-3/1f5604177bf08b967cb862adb8d33790/transformed/jetified-fragment-ktx-1.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.2] /Users/cosmin/.gradle/caches/transforms-3/1f5604177bf08b967cb862adb8d33790/transformed/jetified-fragment-ktx-1.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.2] /Users/cosmin/.gradle/caches/transforms-3/42907d8c2a8c3dfb684e1444ce8ca264/transformed/navigation-runtime-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.2] /Users/cosmin/.gradle/caches/transforms-3/42907d8c2a8c3dfb684e1444ce8ca264/transformed/navigation-runtime-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.5.1] /Users/cosmin/.gradle/caches/transforms-3/3459879068eafe6d3da6cdd7e43cc746/transformed/jetified-activity-ktx-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.5.1] /Users/cosmin/.gradle/caches/transforms-3/3459879068eafe6d3da6cdd7e43cc746/transformed/jetified-activity-ktx-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.2] /Users/cosmin/.gradle/caches/transforms-3/0aecc6ab2304d6a196483806490ae5ce/transformed/navigation-common-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.2] /Users/cosmin/.gradle/caches/transforms-3/0aecc6ab2304d6a196483806490ae5ce/transformed/navigation-common-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/cosmin/.gradle/caches/transforms-3/0d6ed5a6f3c0e5fae8cf0b22be664362/transformed/jetified-lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/cosmin/.gradle/caches/transforms-3/0d6ed5a6f3c0e5fae8cf0b22be664362/transformed/jetified-lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/63bcf0db127aa923e0759e857a570abb/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/63bcf0db127aa923e0759e857a570abb/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/37973990f1fe10b7a1611b8d136ac423/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/37973990f1fe10b7a1611b8d136ac423/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/cosmin/.gradle/caches/transforms-3/8414c8d91a9630cf4529ba478ed3a113/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/cosmin/.gradle/caches/transforms-3/8414c8d91a9630cf4529ba478ed3a113/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/cosmin/.gradle/caches/transforms-3/079db714a854fafa035c87c75e9e311c/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/cosmin/.gradle/caches/transforms-3/079db714a854fafa035c87c75e9e311c/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [me.relex:circleindicator:2.1.6] /Users/cosmin/.gradle/caches/transforms-3/639b49874e91c23373c6d7873f50c72d/transformed/jetified-circleindicator-2.1.6/AndroidManifest.xml:7:5-9:41
+MERGED from [me.relex:circleindicator:2.1.6] /Users/cosmin/.gradle/caches/transforms-3/639b49874e91c23373c6d7873f50c72d/transformed/jetified-circleindicator-2.1.6/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/0e280a47e1f9f0972803fbbee5904626/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/0e280a47e1f9f0972803fbbee5904626/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/cosmin/.gradle/caches/transforms-3/cc369a896dfe21d0736312176f04bd37/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/cosmin/.gradle/caches/transforms-3/cc369a896dfe21d0736312176f04bd37/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/cosmin/.gradle/caches/transforms-3/a4467d81ae08fd74e4fdf7cf95b46970/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/cosmin/.gradle/caches/transforms-3/a4467d81ae08fd74e4fdf7cf95b46970/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/cosmin/.gradle/caches/transforms-3/d54ce005c40cba7e2f1d6e29599cc317/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/cosmin/.gradle/caches/transforms-3/d54ce005c40cba7e2f1d6e29599cc317/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/cosmin/.gradle/caches/transforms-3/1b98f7419b259b5851e10dc084c2d2d0/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/cosmin/.gradle/caches/transforms-3/1b98f7419b259b5851e10dc084c2d2d0/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.2.0] /Users/cosmin/.gradle/caches/transforms-3/7ff2d3215a4bea2bf50bcb3f80ed0f46/transformed/jetified-play-services-base-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.2.0] /Users/cosmin/.gradle/caches/transforms-3/7ff2d3215a4bea2bf50bcb3f80ed0f46/transformed/jetified-play-services-base-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.5.0] /Users/cosmin/.gradle/caches/transforms-3/2c6b16220b8993e8ef341f92fba65c3a/transformed/jetified-mapbox-android-sdk-9.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.5.0] /Users/cosmin/.gradle/caches/transforms-3/2c6b16220b8993e8ef341f92fba65c3a/transformed/jetified-mapbox-android-sdk-9.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/ff51eafc1f9a276f93111296206e7fcc/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/ff51eafc1f9a276f93111296206e7fcc/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/cosmin/.gradle/caches/transforms-3/f30141bfb421f1af55500cca93545fbf/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/cosmin/.gradle/caches/transforms-3/f30141bfb421f1af55500cca93545fbf/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/cosmin/.gradle/caches/transforms-3/9bd6b9d12356e6b88c7f4d2337341b95/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/cosmin/.gradle/caches/transforms-3/9bd6b9d12356e6b88c7f4d2337341b95/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/cosmin/.gradle/caches/transforms-3/e34daebd16827143a55dce6653f593e2/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/cosmin/.gradle/caches/transforms-3/e34daebd16827143a55dce6653f593e2/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/c0573c6f4ce486a1aaaf021c2cc2a651/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/c0573c6f4ce486a1aaaf021c2cc2a651/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.5.2] /Users/cosmin/.gradle/caches/transforms-3/2d338dcb9e7990f4c62952cd4207c787/transformed/fragment-1.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.2] /Users/cosmin/.gradle/caches/transforms-3/2d338dcb9e7990f4c62952cd4207c787/transformed/fragment-1.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] /Users/cosmin/.gradle/caches/transforms-3/b5c985806c5a27bbf4e0a421dc198355/transformed/jetified-activity-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] /Users/cosmin/.gradle/caches/transforms-3/b5c985806c5a27bbf4e0a421dc198355/transformed/jetified-activity-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/8d54fc16b952dd42f1e9586f95769e66/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/8d54fc16b952dd42f1e9586f95769e66/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/3803c10944a4f5ef9ab0ad05d7d9b6bd/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/3803c10944a4f5ef9ab0ad05d7d9b6bd/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/cace1f43dd38431bf908e4df23fe5993/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/cace1f43dd38431bf908e4df23fe5993/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/cosmin/.gradle/caches/transforms-3/070cf33b0f8b4d00b1bfa2a7d16be153/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/cosmin/.gradle/caches/transforms-3/070cf33b0f8b4d00b1bfa2a7d16be153/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/cosmin/.gradle/caches/transforms-3/17b3582dab3c6fc53e79e894e981c4c1/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/cosmin/.gradle/caches/transforms-3/17b3582dab3c6fc53e79e894e981c4c1/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/cosmin/.gradle/caches/transforms-3/7da77b56c4a3eb694f8f63d67a69ba48/transformed/jetified-core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/cosmin/.gradle/caches/transforms-3/7da77b56c4a3eb694f8f63d67a69ba48/transformed/jetified-core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/79fb56ff1da6b9cebad64df5685a48e9/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/79fb56ff1da6b9cebad64df5685a48e9/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/9c42b02ee3e3865ed9ee971a55c1e7de/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/9c42b02ee3e3865ed9ee971a55c1e7de/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/cosmin/.gradle/caches/transforms-3/e08ab56dd776305b3242bad0eefd2cef/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/cosmin/.gradle/caches/transforms-3/e08ab56dd776305b3242bad0eefd2cef/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/cosmin/.gradle/caches/transforms-3/5b91193f404219e5396acbd9008cc39e/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/cosmin/.gradle/caches/transforms-3/5b91193f404219e5396acbd9008cc39e/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/cosmin/.gradle/caches/transforms-3/426b6bd9d31748c14f415907822ab47f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/cosmin/.gradle/caches/transforms-3/426b6bd9d31748c14f415907822ab47f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/cosmin/.gradle/caches/transforms-3/f09ce6ff2f12b444e9609c949265ed5e/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/cosmin/.gradle/caches/transforms-3/f09ce6ff2f12b444e9609c949265ed5e/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/67401f97624f20df15b389f0bd34ed53/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/67401f97624f20df15b389f0bd34ed53/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/cosmin/.gradle/caches/transforms-3/07c8e8a5fa0ae52fd90c896eaa7c0d4b/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/cosmin/.gradle/caches/transforms-3/07c8e8a5fa0ae52fd90c896eaa7c0d4b/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/a78a6cb35da8fec928e04e1607f31287/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/a78a6cb35da8fec928e04e1607f31287/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/cosmin/.gradle/caches/transforms-3/904d725d6bf94bc03e1d92093c0cf9d0/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/cosmin/.gradle/caches/transforms-3/904d725d6bf94bc03e1d92093c0cf9d0/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/cosmin/.gradle/caches/transforms-3/60ca203dbb1241f6fdfda227385f1cca/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/cosmin/.gradle/caches/transforms-3/60ca203dbb1241f6fdfda227385f1cca/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.7.0] /Users/cosmin/.gradle/caches/transforms-3/46fd11aac94edf2ab96fc53582a39165/transformed/jetified-mapbox-android-gestures-0.7.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.7.0] /Users/cosmin/.gradle/caches/transforms-3/46fd11aac94edf2ab96fc53582a39165/transformed/jetified-mapbox-android-gestures-0.7.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/cosmin/.gradle/caches/transforms-3/8c0fec93880369462ea0d48990f9661a/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/cosmin/.gradle/caches/transforms-3/8c0fec93880369462ea0d48990f9661a/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/0f098588e5b9c2b8b7b9ddf627f23779/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/0f098588e5b9c2b8b7b9ddf627f23779/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/cosmin/.gradle/caches/transforms-3/816ef7e612da78b6bfc7fa0dcb532774/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/cosmin/.gradle/caches/transforms-3/816ef7e612da78b6bfc7fa0dcb532774/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/15da04c1a52226900adcc9cab1739d90/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/15da04c1a52226900adcc9cab1739d90/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/cosmin/.gradle/caches/transforms-3/ea68ad47b42a9ebebb28a4d5a117cdba/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/cosmin/.gradle/caches/transforms-3/ea68ad47b42a9ebebb28a4d5a117cdba/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /Users/cosmin/.gradle/caches/transforms-3/4a0c7bc219bae59154aa6bf5f16c0821/transformed/jetified-lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /Users/cosmin/.gradle/caches/transforms-3/4a0c7bc219bae59154aa6bf5f16c0821/transformed/jetified-lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/cosmin/.gradle/caches/transforms-3/84bc9d70a7061a7e210aa42fc276c507/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/cosmin/.gradle/caches/transforms-3/84bc9d70a7061a7e210aa42fc276c507/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/cbb68cc5daa9f459e786b06a422fb0fb/transformed/jetified-savedstate-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/cbb68cc5daa9f459e786b06a422fb0fb/transformed/jetified-savedstate-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/f5530ecf43239deaf8721b9cbf8665aa/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/f5530ecf43239deaf8721b9cbf8665aa/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.0.1] /Users/cosmin/.gradle/caches/transforms-3/a01854606bf0e1f7831489ee87769127/transformed/jetified-firebase-components-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.1] /Users/cosmin/.gradle/caches/transforms-3/a01854606bf0e1f7831489ee87769127/transformed/jetified-firebase-components-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/12a81f386434a63c911f6727bbe8fa5e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/12a81f386434a63c911f6727bbe8fa5e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/cosmin/.gradle/caches/transforms-3/fe617c9f320d0e85b6a43109b050c0c1/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/cosmin/.gradle/caches/transforms-3/fe617c9f320d0e85b6a43109b050c0c1/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/88afd90800790d3a0a603dfa402774b5/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/88afd90800790d3a0a603dfa402774b5/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0] /Users/cosmin/.gradle/caches/transforms-3/57a549cf65715aa4961306efad7e5037/transformed/jetified-mapbox-android-accounts-0.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0] /Users/cosmin/.gradle/caches/transforms-3/57a549cf65715aa4961306efad7e5037/transformed/jetified-mapbox-android-accounts-0.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/cosmin/.gradle/caches/transforms-3/fc244a3acd83e0310a091dddac90dc8f/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/cosmin/.gradle/caches/transforms-3/fc244a3acd83e0310a091dddac90dc8f/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/00b9787fdded29b1b4571e949a46e8a1/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/00b9787fdded29b1b4571e949a46e8a1/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/cosmin/.gradle/caches/transforms-3/2c8a1bffbc6b79160aad458e1d590c90/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/cosmin/.gradle/caches/transforms-3/2c8a1bffbc6b79160aad458e1d590c90/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] /Users/cosmin/.gradle/caches/transforms-3/a695890b07b6c44cc23e7bc03b9c902b/transformed/lifecycle-livedata-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] /Users/cosmin/.gradle/caches/transforms-3/a695890b07b6c44cc23e7bc03b9c902b/transformed/lifecycle-livedata-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /Users/cosmin/.gradle/caches/transforms-3/15f97eda3e6f6fe412570162693d7cc3/transformed/jetified-lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /Users/cosmin/.gradle/caches/transforms-3/15f97eda3e6f6fe412570162693d7cc3/transformed/jetified-lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/cosmin/.gradle/caches/transforms-3/acb90acb7767e81aa1cd50624fe7d24e/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/cosmin/.gradle/caches/transforms-3/acb90acb7767e81aa1cd50624fe7d24e/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/cosmin/.gradle/caches/transforms-3/53f462017f57a2a83c5e6faf2cdc3f3b/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/cosmin/.gradle/caches/transforms-3/53f462017f57a2a83c5e6faf2cdc3f3b/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/5fd5e3beeee5347737a81fe327288874/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/5fd5e3beeee5347737a81fe327288874/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/532a0c73d41f8f2a02276d534f827aff/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/532a0c73d41f8f2a02276d534f827aff/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/c652017d29b6b9a8fad50b63d1142c66/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/c652017d29b6b9a8fad50b63d1142c66/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/cosmin/.gradle/caches/transforms-3/b42a34c3281166acdc28276601a3663f/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/cosmin/.gradle/caches/transforms-3/b42a34c3281166acdc28276601a3663f/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.0.0] /Users/cosmin/.gradle/caches/transforms-3/0d2cf553a51b48273ee9c0e02267ad70/transformed/jetified-mapbox-android-sdk-gl-core-5.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.0.0] /Users/cosmin/.gradle/caches/transforms-3/0d2cf553a51b48273ee9c0e02267ad70/transformed/jetified-mapbox-android-sdk-gl-core-5.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:3.0.0] /Users/cosmin/.gradle/caches/transforms-3/63efc7d94b2b6837ef9a72f3a7e8455d/transformed/jetified-mapbox-android-core-3.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:3.0.0] /Users/cosmin/.gradle/caches/transforms-3/63efc7d94b2b6837ef9a72f3a7e8455d/transformed/jetified-mapbox-android-core-3.0.0/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml
+INJECTED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/b51b7c2fe305bfaae9422e20b1355f89/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/63bcf0db127aa923e0759e857a570abb/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/63bcf0db127aa923e0759e857a570abb/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:64:9-70:19
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:64:9-70:19
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/cosmin/.gradle/caches/transforms-3/9bd6b9d12356e6b88c7f4d2337341b95/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/cosmin/.gradle/caches/transforms-3/9bd6b9d12356e6b88c7f4d2337341b95/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-database:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/b51b7c2fe305bfaae9422e20b1355f89/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:30:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/cosmin/.gradle/caches/transforms-3/9bd6b9d12356e6b88c7f4d2337341b95/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/cosmin/.gradle/caches/transforms-3/9bd6b9d12356e6b88c7f4d2337341b95/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/b51b7c2fe305bfaae9422e20b1355f89/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:29:13-84
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/b51b7c2fe305bfaae9422e20b1355f89/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/b51b7c2fe305bfaae9422e20b1355f89/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/b51b7c2fe305bfaae9422e20b1355f89/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:32:17-109
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/63bcf0db127aa923e0759e857a570abb/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/63bcf0db127aa923e0759e857a570abb/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/63bcf0db127aa923e0759e857a570abb/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/37973990f1fe10b7a1611b8d136ac423/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.5.0] /Users/cosmin/.gradle/caches/transforms-3/2c6b16220b8993e8ef341f92fba65c3a/transformed/jetified-mapbox-android-sdk-9.5.0/AndroidManifest.xml:9:5-11:35
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.5.0] /Users/cosmin/.gradle/caches/transforms-3/2c6b16220b8993e8ef341f92fba65c3a/transformed/jetified-mapbox-android-sdk-9.5.0/AndroidManifest.xml:9:5-11:35
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.0.0] /Users/cosmin/.gradle/caches/transforms-3/0d2cf553a51b48273ee9c0e02267ad70/transformed/jetified-mapbox-android-sdk-gl-core-5.0.0/AndroidManifest.xml:9:5-11:35
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.0.0] /Users/cosmin/.gradle/caches/transforms-3/0d2cf553a51b48273ee9c0e02267ad70/transformed/jetified-mapbox-android-sdk-gl-core-5.0.0/AndroidManifest.xml:9:5-11:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/37973990f1fe10b7a1611b8d136ac423/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/37973990f1fe10b7a1611b8d136ac423/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/37973990f1fe10b7a1611b8d136ac423/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/37973990f1fe10b7a1611b8d136ac423/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/37973990f1fe10b7a1611b8d136ac423/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/37973990f1fe10b7a1611b8d136ac423/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/37973990f1fe10b7a1611b8d136ac423/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/37973990f1fe10b7a1611b8d136ac423/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.2.0] /Users/cosmin/.gradle/caches/transforms-3/7ff2d3215a4bea2bf50bcb3f80ed0f46/transformed/jetified-play-services-base-18.2.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.2.0] /Users/cosmin/.gradle/caches/transforms-3/7ff2d3215a4bea2bf50bcb3f80ed0f46/transformed/jetified-play-services-base-18.2.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.2.0] /Users/cosmin/.gradle/caches/transforms-3/7ff2d3215a4bea2bf50bcb3f80ed0f46/transformed/jetified-play-services-base-18.2.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.2.0] /Users/cosmin/.gradle/caches/transforms-3/7ff2d3215a4bea2bf50bcb3f80ed0f46/transformed/jetified-play-services-base-18.2.0/AndroidManifest.xml:20:19-85
+uses-feature#android.hardware.wifi
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.5.0] /Users/cosmin/.gradle/caches/transforms-3/2c6b16220b8993e8ef341f92fba65c3a/transformed/jetified-mapbox-android-sdk-9.5.0/AndroidManifest.xml:12:5-14:36
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.0.0] /Users/cosmin/.gradle/caches/transforms-3/0d2cf553a51b48273ee9c0e02267ad70/transformed/jetified-mapbox-android-sdk-gl-core-5.0.0/AndroidManifest.xml:12:5-14:36
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.0.0] /Users/cosmin/.gradle/caches/transforms-3/0d2cf553a51b48273ee9c0e02267ad70/transformed/jetified-mapbox-android-sdk-gl-core-5.0.0/AndroidManifest.xml:12:5-14:36
+	android:required
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.5.0] /Users/cosmin/.gradle/caches/transforms-3/2c6b16220b8993e8ef341f92fba65c3a/transformed/jetified-mapbox-android-sdk-9.5.0/AndroidManifest.xml:14:9-33
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.5.0] /Users/cosmin/.gradle/caches/transforms-3/2c6b16220b8993e8ef341f92fba65c3a/transformed/jetified-mapbox-android-sdk-9.5.0/AndroidManifest.xml:13:9-45
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/cosmin/.gradle/caches/transforms-3/9bd6b9d12356e6b88c7f4d2337341b95/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/cosmin/.gradle/caches/transforms-3/9bd6b9d12356e6b88c7f4d2337341b95/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/cosmin/.gradle/caches/transforms-3/9bd6b9d12356e6b88c7f4d2337341b95/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/cosmin/.gradle/caches/transforms-3/9bd6b9d12356e6b88c7f4d2337341b95/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/cosmin/.gradle/caches/transforms-3/9bd6b9d12356e6b88c7f4d2337341b95/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/cosmin/.gradle/caches/transforms-3/9bd6b9d12356e6b88c7f4d2337341b95/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/c0573c6f4ce486a1aaaf021c2cc2a651/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/c0573c6f4ce486a1aaaf021c2cc2a651/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/c0573c6f4ce486a1aaaf021c2cc2a651/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:12:22-65
+provider#com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:18:9-22:39
+	android:authorities
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:20:13-79
+	android:exported
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:21:13-37
+	android:initOrder
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:22:13-36
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:19:13-93
+service#com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:24:9-26:72
+	android:permission
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:26:13-69
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:25:13-93
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/9c42b02ee3e3865ed9ee971a55c1e7de/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/cosmin/.gradle/caches/transforms-3/ea68ad47b42a9ebebb28a4d5a117cdba/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/cosmin/.gradle/caches/transforms-3/ea68ad47b42a9ebebb28a4d5a117cdba/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/cosmin/.gradle/caches/transforms-3/fc244a3acd83e0310a091dddac90dc8f/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/cosmin/.gradle/caches/transforms-3/fc244a3acd83e0310a091dddac90dc8f/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/9c42b02ee3e3865ed9ee971a55c1e7de/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/9c42b02ee3e3865ed9ee971a55c1e7de/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/9c42b02ee3e3865ed9ee971a55c1e7de/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/9c42b02ee3e3865ed9ee971a55c1e7de/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/9c42b02ee3e3865ed9ee971a55c1e7de/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/9c42b02ee3e3865ed9ee971a55c1e7de/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/9c42b02ee3e3865ed9ee971a55c1e7de/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/0f098588e5b9c2b8b7b9ddf627f23779/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/0f098588e5b9c2b8b7b9ddf627f23779/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/0f098588e5b9c2b8b7b9ddf627f23779/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/0f098588e5b9c2b8b7b9ddf627f23779/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/0f098588e5b9c2b8b7b9ddf627f23779/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/0f098588e5b9c2b8b7b9ddf627f23779/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/cosmin/.gradle/caches/transforms-3/ea68ad47b42a9ebebb28a4d5a117cdba/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/cosmin/.gradle/caches/transforms-3/ea68ad47b42a9ebebb28a4d5a117cdba/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/cosmin/.gradle/caches/transforms-3/ea68ad47b42a9ebebb28a4d5a117cdba/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78

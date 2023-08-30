@@ -1,0 +1,369 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.aplicatielicenta"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:5:5-6:39
+11-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:7:5-80
+12-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:7:22-77
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:8:5-67
+13-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:8:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:9:5-79
+14-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:10:5-76
+15-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:10:22-73
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:11:5-81
+16-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:11:22-78
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:12:5-79
+17-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:12:22-76
+18    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+18-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:13:5-85
+18-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:13:22-82
+19
+20    <uses-feature
+20-->[com.google.android.gms:play-services-maps:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/37973990f1fe10b7a1611b8d136ac423/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+21        android:glEsVersion="0x00020000"
+21-->[com.google.android.gms:play-services-maps:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/37973990f1fe10b7a1611b8d136ac423/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+22        android:required="true" />
+22-->[com.google.android.gms:play-services-maps:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/37973990f1fe10b7a1611b8d136ac423/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+23
+24    <queries>
+24-->[com.google.android.gms:play-services-maps:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/37973990f1fe10b7a1611b8d136ac423/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:30:5-34:15
+25
+26        <!-- Needs to be explicitly declared on Android R+ -->
+27        <package android:name="com.google.android.apps.maps" />
+27-->[com.google.android.gms:play-services-maps:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/37973990f1fe10b7a1611b8d136ac423/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+27-->[com.google.android.gms:play-services-maps:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/37973990f1fe10b7a1611b8d136ac423/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+28    </queries>
+29
+30    <uses-feature
+30-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.5.0] /Users/cosmin/.gradle/caches/transforms-3/2c6b16220b8993e8ef341f92fba65c3a/transformed/jetified-mapbox-android-sdk-9.5.0/AndroidManifest.xml:12:5-14:36
+31        android:name="android.hardware.wifi"
+31-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.5.0] /Users/cosmin/.gradle/caches/transforms-3/2c6b16220b8993e8ef341f92fba65c3a/transformed/jetified-mapbox-android-sdk-9.5.0/AndroidManifest.xml:13:9-45
+32        android:required="false" /> <!-- Required for CrashReporterJobIntentService on API levels below 25 -->
+32-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.5.0] /Users/cosmin/.gradle/caches/transforms-3/2c6b16220b8993e8ef341f92fba65c3a/transformed/jetified-mapbox-android-sdk-9.5.0/AndroidManifest.xml:14:9-33
+33    <uses-permission android:name="android.permission.WAKE_LOCK" />
+33-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:12:5-68
+33-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:12:22-65
+34
+35    <application
+35-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:15:5-77:19
+36        android:allowBackup="true"
+36-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:16:9-35
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.8.0] /Users/cosmin/.gradle/caches/transforms-3/816ef7e612da78b6bfc7fa0dcb532774/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+38        android:dataExtractionRules="@xml/data_extraction_rules"
+38-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:17:9-65
+39        android:debuggable="true"
+40        android:fullBackupContent="@xml/backup_rules"
+40-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:18:9-54
+41        android:icon="@mipmap/ic_launcher"
+41-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:19:9-43
+42        android:label="@string/app_name"
+42-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:20:9-41
+43        android:largeHeap="true"
+43-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:21:9-33
+44        android:roundIcon="@mipmap/ic_launcher_round"
+44-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:22:9-54
+45        android:supportsRtl="true"
+45-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:23:9-35
+46        android:testOnly="true"
+47        android:theme="@style/Theme.AplicatieLicenta"
+47-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:24:9-54
+48        android:usesCleartextTraffic="true" >
+48-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:25:9-44
+49        <activity
+49-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:29:9-31:40
+50            android:name="com.example.aplicatielicenta.ViewOfferActivity"
+50-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:30:13-46
+51            android:exported="false" />
+51-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:31:13-37
+52        <activity
+52-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:32:9-34:40
+53            android:name="com.example.aplicatielicenta.EditOfferActivity"
+53-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:33:13-46
+54            android:exported="false" />
+54-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:34:13-37
+55        <activity
+55-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:35:9-48:20
+56            android:name="com.example.aplicatielicenta.MainActivity"
+56-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:36:13-41
+57            android:exported="true"
+57-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:37:13-36
+58            android:theme="@style/Theme.AplicatieLicenta.NoActionBar" >
+58-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:38:13-70
+59            <meta-data
+59-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:39:13-41:36
+60                android:name="android.app.lib_name"
+60-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:40:17-52
+61                android:value="" />
+61-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:41:17-33
+62
+63            <intent-filter>
+63-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:43:13-47:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:44:17-69
+64-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:44:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:46:17-77
+66-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:46:27-74
+67            </intent-filter>
+68        </activity>
+69        <activity
+69-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:49:9-55:20
+70            android:name="com.example.aplicatielicenta.AddOfferActivity"
+70-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:50:13-45
+71            android:exported="false" >
+71-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:51:13-37
+72            <meta-data
+72-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:39:13-41:36
+73                android:name="android.app.lib_name"
+73-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:40:17-52
+74                android:value="" />
+74-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:41:17-33
+75        </activity>
+76        <activity
+76-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:56:9-62:20
+77            android:name="com.example.aplicatielicenta.SignUpActivity"
+77-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:57:13-43
+78            android:exported="false" >
+78-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:58:13-37
+79            <meta-data
+79-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:39:13-41:36
+80                android:name="android.app.lib_name"
+80-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:40:17-52
+81                android:value="" />
+81-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:41:17-33
+82        </activity>
+83        <activity
+83-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:63:9-69:20
+84            android:name="com.example.aplicatielicenta.LogInActivity"
+84-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:64:13-42
+85            android:exported="false" >
+85-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:65:13-37
+86            <meta-data
+86-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:39:13-41:36
+87                android:name="android.app.lib_name"
+87-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:40:17-52
+88                android:value="" />
+88-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:41:17-33
+89        </activity>
+90        <activity
+90-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:70:9-76:20
+91            android:name="com.example.aplicatielicenta.IntroActivity"
+91-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:71:13-42
+92            android:exported="false" >
+92-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:72:13-37
+93            <meta-data
+93-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:39:13-41:36
+94                android:name="android.app.lib_name"
+94-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:40:17-52
+95                android:value="" />
+95-->/Users/cosmin/Desktop/AplicatieAndroid/app/src/main/AndroidManifest.xml:41:17-33
+96        </activity>
+97
+98        <service
+98-->[com.google.firebase:firebase-database:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/b51b7c2fe305bfaae9422e20b1355f89/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:28:9-34:19
+99            android:name="com.google.firebase.components.ComponentDiscoveryService"
+99-->[com.google.firebase:firebase-database:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/b51b7c2fe305bfaae9422e20b1355f89/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:29:13-84
+100            android:directBootAware="true"
+100-->[com.google.firebase:firebase-common:20.2.0] /Users/cosmin/.gradle/caches/transforms-3/9bd6b9d12356e6b88c7f4d2337341b95/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+101            android:exported="false" >
+101-->[com.google.firebase:firebase-database:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/b51b7c2fe305bfaae9422e20b1355f89/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:30:13-37
+102            <meta-data
+102-->[com.google.firebase:firebase-database:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/b51b7c2fe305bfaae9422e20b1355f89/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:31:13-33:85
+103                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+103-->[com.google.firebase:firebase-database:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/b51b7c2fe305bfaae9422e20b1355f89/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:32:17-109
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-database:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/b51b7c2fe305bfaae9422e20b1355f89/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:33:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-storage:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/63bcf0db127aa923e0759e857a570abb/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
+106                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+106-->[com.google.firebase:firebase-storage:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/63bcf0db127aa923e0759e857a570abb/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-storage:20.1.0] /Users/cosmin/.gradle/caches/transforms-3/63bcf0db127aa923e0759e857a570abb/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+109                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+109-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+111        </service>
+112
+113        <activity
+113-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+114            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+114-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+115            android:excludeFromRecents="true"
+115-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+116            android:exported="true"
+116-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+117            android:launchMode="singleTask"
+117-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+118            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+118-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+119            <intent-filter>
+119-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+120                <action android:name="android.intent.action.VIEW" />
+120-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+120-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+121
+122                <category android:name="android.intent.category.DEFAULT" />
+122-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+122-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+123                <category android:name="android.intent.category.BROWSABLE" />
+123-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+123-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+124
+125                <data
+125-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+126                    android:host="firebase.auth"
+126-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+127                    android:path="/"
+127-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+128                    android:scheme="genericidp" />
+128-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+129            </intent-filter>
+130        </activity>
+131        <activity
+131-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+132            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+132-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+133            android:excludeFromRecents="true"
+133-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+134            android:exported="true"
+134-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+135            android:launchMode="singleTask"
+135-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+136            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+136-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+137            <intent-filter>
+137-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+138                <action android:name="android.intent.action.VIEW" />
+138-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+138-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+139
+140                <category android:name="android.intent.category.DEFAULT" />
+140-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+140-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+141                <category android:name="android.intent.category.BROWSABLE" />
+141-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+141-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+142
+143                <data
+143-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+144                    android:host="firebase.auth"
+144-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+145                    android:path="/"
+145-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+146                    android:scheme="recaptcha" />
+146-->[com.google.firebase:firebase-auth:21.1.0] /Users/cosmin/.gradle/caches/transforms-3/91e4fa3cf4d6f5eea2c9c3f057e9d59b/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+147            </intent-filter>
+148        </activity> <!-- Needs to be explicitly declared on P+ -->
+149        <uses-library
+149-->[com.google.android.gms:play-services-maps:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/37973990f1fe10b7a1611b8d136ac423/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+150            android:name="org.apache.http.legacy"
+150-->[com.google.android.gms:play-services-maps:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/37973990f1fe10b7a1611b8d136ac423/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+151            android:required="false" />
+151-->[com.google.android.gms:play-services-maps:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/37973990f1fe10b7a1611b8d136ac423/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+152
+153        <activity
+153-->[com.google.android.gms:play-services-base:18.2.0] /Users/cosmin/.gradle/caches/transforms-3/7ff2d3215a4bea2bf50bcb3f80ed0f46/transformed/jetified-play-services-base-18.2.0/AndroidManifest.xml:20:9-22:45
+154            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+154-->[com.google.android.gms:play-services-base:18.2.0] /Users/cosmin/.gradle/caches/transforms-3/7ff2d3215a4bea2bf50bcb3f80ed0f46/transformed/jetified-play-services-base-18.2.0/AndroidManifest.xml:20:19-85
+155            android:exported="false"
+155-->[com.google.android.gms:play-services-base:18.2.0] /Users/cosmin/.gradle/caches/transforms-3/7ff2d3215a4bea2bf50bcb3f80ed0f46/transformed/jetified-play-services-base-18.2.0/AndroidManifest.xml:22:19-43
+156            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+156-->[com.google.android.gms:play-services-base:18.2.0] /Users/cosmin/.gradle/caches/transforms-3/7ff2d3215a4bea2bf50bcb3f80ed0f46/transformed/jetified-play-services-base-18.2.0/AndroidManifest.xml:21:19-78
+157
+158        <provider
+158-->[com.google.firebase:firebase-common:20.2.0] /Users/cosmin/.gradle/caches/transforms-3/9bd6b9d12356e6b88c7f4d2337341b95/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+159            android:name="com.google.firebase.provider.FirebaseInitProvider"
+159-->[com.google.firebase:firebase-common:20.2.0] /Users/cosmin/.gradle/caches/transforms-3/9bd6b9d12356e6b88c7f4d2337341b95/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+160            android:authorities="com.example.aplicatielicenta.firebaseinitprovider"
+160-->[com.google.firebase:firebase-common:20.2.0] /Users/cosmin/.gradle/caches/transforms-3/9bd6b9d12356e6b88c7f4d2337341b95/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+161            android:directBootAware="true"
+161-->[com.google.firebase:firebase-common:20.2.0] /Users/cosmin/.gradle/caches/transforms-3/9bd6b9d12356e6b88c7f4d2337341b95/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+162            android:exported="false"
+162-->[com.google.firebase:firebase-common:20.2.0] /Users/cosmin/.gradle/caches/transforms-3/9bd6b9d12356e6b88c7f4d2337341b95/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+163            android:initOrder="100" />
+163-->[com.google.firebase:firebase-common:20.2.0] /Users/cosmin/.gradle/caches/transforms-3/9bd6b9d12356e6b88c7f4d2337341b95/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+164
+165        <meta-data
+165-->[com.google.android.gms:play-services-basement:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/c0573c6f4ce486a1aaaf021c2cc2a651/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+166            android:name="com.google.android.gms.version"
+166-->[com.google.android.gms:play-services-basement:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/c0573c6f4ce486a1aaaf021c2cc2a651/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+167            android:value="@integer/google_play_services_version" />
+167-->[com.google.android.gms:play-services-basement:18.1.0] /Users/cosmin/.gradle/caches/transforms-3/c0573c6f4ce486a1aaaf021c2cc2a651/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+168
+169        <provider
+169-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:18:9-22:39
+170            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
+170-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:19:13-93
+171            android:authorities="com.example.aplicatielicenta.mapboxtelemetryinitprovider"
+171-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:20:13-79
+172            android:exported="false"
+172-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:21:13-37
+173            android:initOrder="100" />
+173-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:22:13-36
+174
+175        <service
+175-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:24:9-26:72
+176            android:name="com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService"
+176-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:25:13-93
+177            android:permission="android.permission.BIND_JOB_SERVICE" />
+177-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] /Users/cosmin/.gradle/caches/transforms-3/fbb175ec2389c29555c85f7e449920a9/transformed/jetified-mapbox-android-telemetry-6.1.0/AndroidManifest.xml:26:13-69
+178
+179        <provider
+179-->[androidx.emoji2:emoji2:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/9c42b02ee3e3865ed9ee971a55c1e7de/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+180            android:name="androidx.startup.InitializationProvider"
+180-->[androidx.emoji2:emoji2:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/9c42b02ee3e3865ed9ee971a55c1e7de/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+181            android:authorities="com.example.aplicatielicenta.androidx-startup"
+181-->[androidx.emoji2:emoji2:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/9c42b02ee3e3865ed9ee971a55c1e7de/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+182            android:exported="false" >
+182-->[androidx.emoji2:emoji2:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/9c42b02ee3e3865ed9ee971a55c1e7de/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+183            <meta-data
+183-->[androidx.emoji2:emoji2:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/9c42b02ee3e3865ed9ee971a55c1e7de/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+184                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+184-->[androidx.emoji2:emoji2:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/9c42b02ee3e3865ed9ee971a55c1e7de/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+185                android:value="androidx.startup" />
+185-->[androidx.emoji2:emoji2:1.2.0] /Users/cosmin/.gradle/caches/transforms-3/9c42b02ee3e3865ed9ee971a55c1e7de/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+186            <meta-data
+186-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/cosmin/.gradle/caches/transforms-3/ea68ad47b42a9ebebb28a4d5a117cdba/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+187                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+187-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/cosmin/.gradle/caches/transforms-3/ea68ad47b42a9ebebb28a4d5a117cdba/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+188                android:value="androidx.startup" />
+188-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/cosmin/.gradle/caches/transforms-3/ea68ad47b42a9ebebb28a4d5a117cdba/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+189        </provider>
+190
+191        <uses-library
+191-->[androidx.window:window:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/0f098588e5b9c2b8b7b9ddf627f23779/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+192            android:name="androidx.window.extensions"
+192-->[androidx.window:window:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/0f098588e5b9c2b8b7b9ddf627f23779/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+193            android:required="false" />
+193-->[androidx.window:window:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/0f098588e5b9c2b8b7b9ddf627f23779/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+194        <uses-library
+194-->[androidx.window:window:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/0f098588e5b9c2b8b7b9ddf627f23779/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+195            android:name="androidx.window.sidecar"
+195-->[androidx.window:window:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/0f098588e5b9c2b8b7b9ddf627f23779/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+196            android:required="false" />
+196-->[androidx.window:window:1.0.0] /Users/cosmin/.gradle/caches/transforms-3/0f098588e5b9c2b8b7b9ddf627f23779/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+197    </application>
+198
+199</manifest>
